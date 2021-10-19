@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/features/google_search.feature",
-        glue = " stepdefinitions",
+        glue = "ProjectBase-Automations.stepdefinitions",
         snippets = SnippetType.CAMELCASE)
 
 public class GoogleSearchRunner {

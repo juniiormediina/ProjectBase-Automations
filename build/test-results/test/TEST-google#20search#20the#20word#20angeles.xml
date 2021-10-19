@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="google search the word angeles" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-10-18T23:42:08" hostname="LENOVO-PC" time="0.047">
+<testsuite name="google search the word angeles" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-10-19T02:32:18" hostname="LENOVO-PC" time="0.029">
   <properties/>
-  <testcase name="Google search the word angeles" classname="google search the word angeles" time="0.047">
+  <testcase name="Google search the word angeles" classname="google search the word angeles" time="0.029">
     <skipped/>
   </testcase>
   <system-out><![CDATA[]]></system-out>

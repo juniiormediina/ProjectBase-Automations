@@ -11,12 +11,13 @@ public class OpenGoogle implements Task {
     private GooglePage googlePage;
 
     public static OpenGoogle thePageGoogle() {
+
         return Tasks.instrumented(OpenGoogle.class);
     }
 
     @Override
-    public <T extends Actor> void performAs(T actor){
-        actor.attemptsTo(Open.browserOn(GooglePage));
-    }
+    public <T extends Actor> void performAs(T actor) {
 
+        actor.attemptsTo(Open.browserOn(googlePage));
+    }
 }
